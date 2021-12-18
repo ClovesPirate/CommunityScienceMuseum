@@ -18,7 +18,8 @@ h1 {
 
 h2,
 h3,
-nav a {
+nav a,
+.footer-links a {
   font-family: "Copperplate";
   font-weight: bold;
   color: var(--black);
@@ -26,12 +27,13 @@ nav a {
 
 h2 {
   font-size: 39.06px;
-  padding: 50px 0 50px 0;
+  padding: 80px 0 80px 0;
   text-align: center;
 }
 
 h3,
-nav a {
+nav a,
+.footer-links a {
   font-size: 25px;
 }
 
@@ -57,18 +59,38 @@ body {
   margin: 0;
 }
 
+aside {
+  background-color: var(--secondary-color);
+  height: fit-content;
+}
+
 .colored-theme {
   background-color: var(--secondary-color);
-  padding: 100px 0;
+  padding-bottom: 80px;
 }
 
 .white-theme {
-  padding: 100px 0;
+  padding-bottom: 80px;
+}
+
+.colored-theme-alt {
+  background-color: var(--secondary-color);
+  padding: 80px 0;
+}
+
+.white-theme-alt {
+  padding: 80px 0;
 }
 
 .colored-theme p,
 .colored-theme h2,
 .colored-theme h3 {
+  color: var(--white);
+}
+
+.colored-theme-alt p,
+.colored-theme-alt h2,
+.colored-theme-alt h3 {
   color: var(--white);
 }
 
@@ -93,21 +115,30 @@ body {
   margin-top: 80px;
 }
 
-/* Navigation */
+/* header */
 
 header {
-  background-color: var(--prime-color);
+  background-color: var(--white);
   height: 50px;
 }
+
+#logo-header {
+  position: absolute;
+  left: 0%;
+  height: 47px;
+}
+
+#starclub-icon {
+  position: absolute;
+  right: 0%;
+  height: 47px;
+}
+
+/* Navigation */
 
 a img {
   height: 50px;
   width: auto;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
 }
 
 nav a {
@@ -118,37 +149,50 @@ nav a {
   transition-duration: 0.5s;
 }
 nav ul {
-  margin: 13px;
+  display: flex;
   padding: 0;
-  position: relative;
-  right: 15px;
+  margin: 0;
+  justify-content: space-evenly;
 }
 
 nav li {
-  display: inline;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 5%;
 }
 
-#logo-header {
-  position: absolute;
-  left: 0%;
+i {
+  text-align: center;
+  color: var(--white);
+  padding-top: 3px;
 }
-
-#starclub-icon {
-  position: absolute;
-  right: 0%;
-}
-
-.nav_mob {
-  display: none;
-}
-
-/* nav mobile */
 
 /* footer */
 
 footer {
+  background-color: var(--white);
+}
+
+.footer-links {
+  margin-top: 5px;
+}
+
+.footer-links a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: var(--black);
+  padding: 10px;
+}
+
+#logo-bottom {
   background-color: var(--prime-color);
+  height: 48px;
+}
+
+#logo-bottom img {
+  height: 50px;
+  width: auto;
 }
 
 /* Index */
@@ -156,7 +200,7 @@ footer {
 .museum-image img {
   width: 100%;
   opacity: 80%;
-  border-bottom: 5px solid var(--accent-color);
+  border-bottom: 5px solid var(--secondary-color);
 }
 
 .news-container,
@@ -230,6 +274,7 @@ footer {
 
 .banner img {
   width: 100%;
+  opacity: 80%;
 }
 
 /* Children Star Club */
@@ -240,8 +285,8 @@ footer {
 
 /* hover states */
 
-nav ul a:hover {
-  border-bottom: 12px solid var(--white);
+nav li:hover {
+  background-color: var(--prime-color);
 }
 
 nav img:hover,
@@ -258,7 +303,7 @@ nav img:hover,
 
   .museum-image img {
     max-height: 40vh;
-    width: auto;
+    width: 100%;
   }
 
   .image-container,
@@ -266,11 +311,17 @@ nav img:hover,
     margin: 20px;
   }
 
-  .nav_desk {
-    display: none;
+  nav a,
+  .footer-links a {
+    font-size: 20px;
   }
 
-  .nav_mob {
-    display: inline;
+  a img {
+    height: 36px;
+    width: auto;
+  }
+
+  header {
+    height: 36px;
   }
 }
