@@ -127,6 +127,11 @@ aside {
   margin-top: 80px;
 }
 
+.active {
+  background-color: var(--white);
+  color: var(--black);
+}
+
 /* header */
 
 header {
