@@ -42,7 +42,6 @@ span {
   font-family: "Open Sans Condensed", "Open Sans", "Montserrat",
     "Source Sans Pro", "PT Sans";
   font-size: 20px;
-  font-weight: lighter;
   color: var(--black);
   padding-bottom: 2em;
 }
@@ -124,15 +123,6 @@ aside {
   margin-top: 80px;
 }
 
-.active {
-  background-color: var(--white);
-}
-
-.active a,
-.active i {
-  color: var(--black);
-}
-
 /* header */
 
 header {
@@ -174,8 +164,8 @@ nav ul {
 nav li {
   display: flex;
   flex-direction: column;
-  padding: 8px 5%;
-  transition-duration: 2s;
+  padding: 8px 10%;
+  transition-duration: 5s;
 }
 
 i {
@@ -317,6 +307,10 @@ footer {
   padding: 5px;
 }
 
+. hours p {
+  font-weight: bold;
+}
+
 /* Children Star Club */
 
 #science-art {
@@ -327,7 +321,7 @@ footer {
 /* hover states */
 
 nav li:hover {
-  background-color: var(--prime-color);
+  background-color: var(--white);
 }
 
 .news-container:hover,
