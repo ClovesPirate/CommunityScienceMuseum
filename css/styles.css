@@ -321,7 +321,7 @@ footer {
 /* hover states */
 
 nav li:hover {
-  background-color: var(--white);
+  background-color: var(--prime-color);
 }
 
 .news-container:hover,
