@@ -393,7 +393,7 @@ nav li:hover {
 }
 
 @media only screen and (min-width: 1980px) {
-  body {
+  main {
     max-width: 1980px;
     margin: auto;
   }
