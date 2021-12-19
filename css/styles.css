@@ -402,7 +402,7 @@ nav li:hover {
   h2,
   h3,
   p {
-    max-width: 70%;
+    max-width: 50%;
     margin: auto;
   }
 }
