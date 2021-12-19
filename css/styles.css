@@ -164,8 +164,8 @@ nav ul {
 nav li {
   display: flex;
   flex-direction: column;
-  padding: 3px 0;
-  transition-duration: 5s;
+  padding: 3px 15px;
+  transition-duration: 2s;
 }
 
 i {
@@ -322,6 +322,7 @@ footer {
 
 nav li:hover {
   background-color: var(--prime-color);
+  transform: scale(1.05);
 }
 
 .news-container:hover,
