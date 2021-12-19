@@ -9,7 +9,7 @@
 /* fonts */
 
 h1 {
-  font-family: "Krona One", "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: "Lexend Deca", "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif;
   font-size: 48.83px;
   color: var(--black);
@@ -20,7 +20,7 @@ h1 {
 h2,
 h3,
 nav a {
-  font-family: "Krona One", "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: "Lexend Deca", "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif;
   font-weight: bold;
   color: var(--black);
@@ -239,7 +239,7 @@ footer {
 
 .news-container p,
 .news-container h3 {
-  margin: 30px 40px;
+  margin: 10px 20px;
 }
 
 .news-container a {
@@ -383,7 +383,7 @@ nav li:hover {
   h2,
   h3,
   p {
-    max-width: 85%;
+    max-width: 90%;
     margin: auto;
   }
 
