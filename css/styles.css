@@ -158,7 +158,7 @@ nav ul {
   display: flex;
   padding: 0;
   margin: 0;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 nav li {
