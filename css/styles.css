@@ -129,6 +129,10 @@ aside {
 
 .active {
   background-color: var(--white);
+}
+
+.active p,
+.active i {
   color: var(--black);
 }
 
