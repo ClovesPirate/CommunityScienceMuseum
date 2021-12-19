@@ -111,9 +111,6 @@ aside {
   width: 90%;
   margin: auto;
 }
-.active {
-  border-bottom: 12px solid var(--white);
-}
 
 .main-header {
   text-align: center;
