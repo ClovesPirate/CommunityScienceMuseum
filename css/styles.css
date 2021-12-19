@@ -39,7 +39,7 @@ nav a,
 p,
 .footer-links a,
 span {
-  font-family: "Open Sans Condensed", "Open Sans" "Montserrat",
+  font-family: "Open Sans Condensed", "Open Sans", "Montserrat",
     "Source Sans Pro", "PT Sans";
   font-size: 20px;
   font-weight: lighter;
