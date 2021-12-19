@@ -81,10 +81,6 @@ aside {
   padding-bottom: 80px;
 }
 
-.white-theme img {
-  border: 5px solid var(--prime-color);
-}
-
 .colored-theme-alt {
   background-color: var(--secondary-color);
   padding: 80px 0;
@@ -173,6 +169,7 @@ i {
   text-align: center;
   color: var(--white);
   padding-top: 3px;
+  font-weight: 400;
 }
 
 /* footer */
@@ -219,8 +216,6 @@ footer {
 }
 
 .image-container {
-  border: 5px solid var(--white);
-  border-bottom: 2px solid var(--white);
   margin: 100px 30px 100px 30px;
   background-color: var(--white);
 }
@@ -280,23 +275,16 @@ footer {
 .flex-image img {
   width: 50%;
   height: auto;
-  border: 5px solid var(--white);
 }
 
 .flex-image p {
   text-align: left;
 }
 
-#alt-color-border {
-  border: solid 5px var(--secondary-color);
-}
-
 /* Exhibitions */
 
 .banner img {
   width: 100%;
-  border-top: 5px solid var(--white);
-  border-bottom: 5px solid var(--white);
 }
 
 /* Visit */
