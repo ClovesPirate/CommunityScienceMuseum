@@ -9,7 +9,7 @@
 /* fonts */
 
 h1 {
-  font-family: "Copperplate", "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: "Krona One", "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif;
   font-size: 48.83px;
   color: var(--black);
@@ -20,7 +20,8 @@ h1 {
 h2,
 h3,
 nav a {
-  font-family: "Copperplate", "PT Sans", "Montserrat";
+  font-family: "Krona One", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   font-weight: bold;
   color: var(--black);
 }
@@ -40,8 +41,7 @@ nav a,
 p,
 .footer-links a,
 span {
-  font-family: "Open Sans Condensed", "Open Sans", "Montserrat",
-    "Source Sans Pro", "PT Sans";
+  font-family: "Open Sans", "Montserrat", "Source Sans Pro", "PT Sans";
   font-size: 20px;
   color: var(--black);
   padding-bottom: 2em;
