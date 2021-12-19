@@ -69,6 +69,7 @@ body {
 aside {
   background-color: var(--secondary-color);
   height: fit-content;
+  overflow: hidden;
 }
 
 .colored-theme {
@@ -285,6 +286,10 @@ footer {
   border: 5px solid var(--white);
 }
 
+.flex-image p {
+  text-align: left;
+}
+
 #alt-color-border {
   border: solid 5px var(--secondary-color);
 }
@@ -406,7 +411,15 @@ nav li:hover {
     width: 90vw;
   }
 
-  .banner img {
-    height: 10vh;
+  h1,
+  h2,
+  h3,
+  p {
+    max-width: 85%;
+    margin: auto;
+  }
+
+  h2 {
+    padding: 60px 0 30px 0;
   }
 }
