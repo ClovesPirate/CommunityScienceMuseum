@@ -307,6 +307,11 @@ footer {
   padding: 5px;
 }
 
+#visit-image {
+  position: relative;
+  bottom: 75px;
+}
+
 /* Children Star Club */
 
 #science-art {
