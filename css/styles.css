@@ -397,4 +397,12 @@ nav li:hover {
     max-width: 1980px;
     margin: auto;
   }
+
+  h1,
+  h2,
+  h3,
+  p {
+    max-width: 70%;
+    margin: auto;
+  }
 }
