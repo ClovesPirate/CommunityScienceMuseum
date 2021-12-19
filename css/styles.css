@@ -302,7 +302,7 @@ footer {
 
 .hours {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border-top: 5px solid var(--secondary-color);
   padding: 5px;
 }
