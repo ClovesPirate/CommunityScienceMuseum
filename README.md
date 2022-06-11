@@ -25,7 +25,7 @@ The site consists of 5 pages: Home, Events, Exhibitions, Visit and Young Star Cl
 1. Clone the repo:
 
 ```bash
-https://github.com/Noroff-FEU-Assignments/project-exam-1-ClovesPirate.git
+https://github.com/ClovesPirate/CommunityScienceMuseum.git
 ```
 
 ## Contact
