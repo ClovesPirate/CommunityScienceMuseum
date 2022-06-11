@@ -12,7 +12,8 @@ The site consists of 5 pages: Home, Events, Exhibitions, Visit and Young Star Cl
 - Follow WCAG guidelines and SEO optimiziation.
 - Clean and semantic HTML, DRY-principle code.
 - Make an appealing design following design principles.
-- 
+
+
 ## Built With
 
 - [HTML 5]
